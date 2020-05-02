@@ -1,20 +1,15 @@
 import org.junit.jupiter.api.Test;
-import static org.hamcrest.CoreMatches.*;
-
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TaschenrechnerTest {
-    int int_Zahl1 = 1;
-    int int_Zahl2 = 3;
 
     @Test
-    void int_Addition_Gut() {
-        int zahl1 = -3;
-        int zahl2 = -2;
-
-
+    void int_Addition() {
+        assertThat(1,is(1));
     }
-     /*
+
     @Test
     void float_Addition() {
     }
@@ -42,6 +37,4 @@ class TaschenrechnerTest {
     @Test
     void float_Division() {
     }
-    */
-
 }
