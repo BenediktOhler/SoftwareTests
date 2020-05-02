@@ -5,10 +5,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TaschenrechnerTest {
     int int_Zahl1 = 1;
-    int int_Zahl2 = 4;
+    int int_Zahl2 = 3;
 
     @Test
-    void int_Addition() {
+    void int_Addition_Gut() {
+        int zahl1 = -3;
+        int zahl2 = -2;
+
 
     }
      /*
